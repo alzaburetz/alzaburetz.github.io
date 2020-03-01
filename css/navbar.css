@@ -1,0 +1,33 @@
+.header {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    height: 60pt;
+    width: 60%;
+    position: fixed;
+    orientation: landscape;
+    background-color: #444;
+    display: flex;
+    overflow: hidden;
+    vertical-align: center;
+    top: 0;
+    box-shadow: 1px 10px 1px;
+    
+}
+
+.navitem {
+    text-align: center;
+    font-size: 24pt;
+    overflow: hidden;
+    padding: 40pt;
+    width: 33%;
+    color: white;
+    font-family: 'Lato', ;
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+
+.navitem:hover {
+    background-color: #c2c2c2;
+    color: #222;
+}
